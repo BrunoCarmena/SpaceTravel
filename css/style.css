@@ -32,10 +32,9 @@
 
 body {
     font-family: 'outfit', sans-serif;
-    background-image: url(/img/background.jpg);
+    background-image: url(../img/background.jpg);
     background-size: cover;
     background-position: center;
-    /* overflow: hidden; */
 }
 
 a {
@@ -366,6 +365,65 @@ img.luna {
     height: 150px;
 }
 
+/* Footer css */
+
+footer{
+    width: 100%;
+    height: auto;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 3rem 12%;
+    color: #fff;
+    border-top: 1px solid #541389;
+}
+
+.container-foot{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+.container-foot .caja-izq .redes-sociales{
+    display: flex;
+}
+
+.container-foot .title{
+    font-size: 1.5rem;
+    color: var(--hover-color);
+    font-weight: 600;
+}
+
+.caja-izq p{
+    padding: 15px 0;
+    line-height: 1.5rem;
+}
+
+.redes-sociales a{
+    font-size: 1.5rem;
+}
+
+.redes-sociales a:hover{
+    color: var(--hover-color);
+}
+
+.redes-sociales li{
+    margin-right: 1rem;
+}
+
+.menu-rapido li{
+    margin-top: 1rem;
+}
+
+.menu-rapido li a:hover{
+    color: var(--hover-color);
+}
+
+.info li span{
+    display: flex;
+    align-items: center;
+    margin: 1rem 1rem 1rem 0;
+    column-gap: 5px;
+}
 
 
 
