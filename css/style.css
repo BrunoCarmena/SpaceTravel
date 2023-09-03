@@ -214,7 +214,7 @@ img.luna {
 .container .caja-vuelo {
     width: 200px;
     padding: 2rem 1.5rem 2rem;
-    background-image: url(/img/cardBg.jpg);
+    background-image: url(../img/cardBg.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
