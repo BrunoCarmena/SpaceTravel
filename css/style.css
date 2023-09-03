@@ -199,11 +199,11 @@ img.luna {
     width: 90px;
 }
 
-.lista-vuelo{
+.lista-vuelo {
     position: relative;
 }
 
-.lista-vuelo .container{
+.lista-vuelo .container {
     margin-top: 6rem;
     display: flex;
     justify-content: center;
@@ -212,7 +212,7 @@ img.luna {
     position: relative;
 }
 
-.container .caja-vuelo{
+.container .caja-vuelo {
     width: 200px;
     padding: 2rem 1.5rem 2rem;
     background-image: url(/img/cardBg.jpg);
@@ -224,7 +224,7 @@ img.luna {
     margin: 2rem .5rem;
 }
 
-.caja-vuelo img{
+.caja-vuelo img {
     width: 120px;
     margin: -4rem auto 0 auto;
     animation: floatimg 6s ease-in-out infinite;
@@ -232,20 +232,20 @@ img.luna {
     border-radius: 50%;
 }
 
-.container .caja-vuelo h2{
+.container .caja-vuelo h2 {
     color: var(--hover-color);
     font-size: 1.5rem;
     font-weight: 600;
     margin: 0;
 }
 
-.caja-vuelo p{
+.caja-vuelo p {
     color: #dddcdc;
     line-height: 1.5rem;
     font-size: .9rem;
 }
 
-.caja-vuelo .marsBtn{
+.caja-vuelo .marsBtn {
     margin-top: 1rem;
     height: 32px;
     line-height: 32px;
@@ -256,7 +256,7 @@ img.luna {
 
 /* mision historia css */
 
-.mision-historia{
+.mision-historia {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -264,12 +264,12 @@ img.luna {
     gap: 1rem;
 }
 
-.mision-img{
+.mision-img {
     position: relative;
     width: 600px;
 }
 
-.circulo-animado{
+.circulo-animado {
     position: absolute;
     top: 30%;
     width: 200px;
@@ -280,7 +280,7 @@ img.luna {
     text-align: right;
 }
 
-.circulo-animado span{
+.circulo-animado span {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -292,27 +292,27 @@ img.luna {
     animation-delay: calc(1s * var(--i));
 }
 
-.mision-img img{
+.mision-img img {
     width: 200px;
     height: auto;
     animation: floatimg 4s ease-in-out infinite;
 }
 
-.mision-txt{
+.mision-txt {
     color: #fff;
 }
 
-.mision-txt h3{
+.mision-txt h3 {
     font-size: 2.5rem;
     text-shadow: 2px 1px 1px #474747;
 }
 
-.mision-txt p{
+.mision-txt p {
     margin: 1rem auto;
     line-height: 2rem;
 }
 
-.mision-txt .mision-btn a{
+.mision-txt .mision-btn a {
     margin-top: 1rem;
     height: 35px;
     line-height: 35px;
@@ -320,46 +320,46 @@ img.luna {
 
 /* Shop css */
 
-.tienda .caja-vuelo{
+.tienda .caja-vuelo {
     text-align: left;
     width: 210px;
 }
 
-.tienda .caja-vuelo img{
+.tienda .caja-vuelo img {
     animation: none;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     filter: none;
 }
 
-.tienda .caja-vuelo .title{
+.tienda .caja-vuelo .title {
     font-size: 1.5rem;
     font-weight: 700;
     letter-spacing: 1px;
     margin: 5px 0;
 }
 
-.tienda .caja-vuelo .precio{
+.tienda .caja-vuelo .precio {
     color: var(--hover-color);
     font-size: 20px;
     font-weight: 600;
 }
 
-.tienda-btn{
+.tienda-btn {
     text-align: center;
 }
 
-.tienda-btn .marsBtn{
+.tienda-btn .marsBtn {
     height: 40px;
     line-height: 40px;
 }
 
 /* Experiencias css */
 
-.experiencias .mision-img img{
+.experiencias .mision-img img {
     width: 300px;
 }
 
-.experiencias .circulo-animado{
+.experiencias .circulo-animado {
     position: absolute;
     left: 27%;
     width: 150px;
@@ -395,21 +395,24 @@ img.luna {
     }
 }
 
-@keyframes floatimg{
-    0%{
+@keyframes floatimg {
+    0% {
         transform: translateY(0);
     }
-    50%{
+
+    50% {
         transform: translateY(-14px);
     }
-    100%{
+
+    100% {
         transform: translateY(0);
     }
 }
+
 @keyframes circuloAnimado {
-    100%{
+    100% {
         opacity: 0;
         transform: scale(2);
     }
-    
+
 }
