@@ -318,7 +318,53 @@ img.luna {
     line-height: 35px;
 }
 
+/* Shop css */
 
+.tienda .caja-vuelo{
+    text-align: left;
+    width: 210px;
+}
+
+.tienda .caja-vuelo img{
+    animation: none;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    filter: none;
+}
+
+.tienda .caja-vuelo .title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 5px 0;
+}
+
+.tienda .caja-vuelo .precio{
+    color: var(--hover-color);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.tienda-btn{
+    text-align: center;
+}
+
+.tienda-btn .marsBtn{
+    height: 40px;
+    line-height: 40px;
+}
+
+/* Experiencias css */
+
+.experiencias .mision-img img{
+    width: 300px;
+}
+
+.experiencias .circulo-animado{
+    position: absolute;
+    left: 27%;
+    width: 150px;
+    height: 150px;
+}
 
 
 
