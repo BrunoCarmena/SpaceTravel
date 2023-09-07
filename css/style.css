@@ -251,6 +251,8 @@ img.luna {
     color: #000;
     font-size: .9rem;
     font-weight: 700;
+    width: 100%;
+    text-align: center;
 }
 
 /* mision historia css */
@@ -433,6 +435,7 @@ footer{
     color: #fff;
     background: rgba(0, 0, 0, 0.7);
     border-top: 1px solid rgba(117, 117, 117, 0.3);
+    align-items: center;
 }
 
 .copyright a{
@@ -583,5 +586,29 @@ header.sticky{
     .navlist li .nav-item{
         padding: 5px 0;
         font-size: 1.4rem;
+    }
+    .inicio{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .tierra-rotacion img.tierra{
+        animation: none;
+    }
+
+    .container-foot{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media(max-width:503px){
+    .copyright{
+        display: block;
+        text-align: center;
+    }
+
+    .copyright p{
+        margin-bottom: 1rem;
     }
 }
