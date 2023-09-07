@@ -16,3 +16,21 @@ function activeMenu(){
 
 activeMenu();
 window.addEventListener("scroll",activeMenu);
+
+
+
+//active menu icon
+
+const menuIcon = document.querySelector("#menu-icon");
+const navlist = document.querySelector(".navlist");
+
+menuIcon.onclick = () =>{
+    menuIcon.classList.toggle("bx-x");
+    navlist.classList.toggle("open");
+}
+
+
+window.onscroll = () =>{
+    menuIcon.classList.remove("bx-x");
+    navlist.classList.remove("open");
+}
