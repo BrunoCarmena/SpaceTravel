@@ -21,8 +21,8 @@ window.addEventListener("scroll",activeMenu);
 
 //active menu icon
 
-const menuIcon = document.querySelector("#menu-icon");
-const navlist = document.querySelector(".navlist");
+let menuIcon = document.querySelector("#menu-icon");
+let navlist = document.querySelector(".navlist");
 
 menuIcon.onclick = () =>{
     menuIcon.classList.toggle("bx-x");
