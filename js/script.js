@@ -4,7 +4,7 @@ window.addEventListener('scroll', ()=>{
 })
 
 
-const lilink = document.querySelectorAll("header ul li a");
+const liLink = document.querySelectorAll("header ul li a");
 const section = document.querySelectorAll("section");
 
 function activeMenu(){
@@ -21,8 +21,8 @@ window.addEventListener("scroll",activeMenu);
 
 //active menu icon
 
-let menuIcon = document.querySelector("#menu-icon");
-let navlist = document.querySelector(".navlist");
+const menuIcon = document.querySelector("#menu-icon");
+const navlist = document.querySelector(".navlist");
 
 menuIcon.onclick = () =>{
     menuIcon.classList.toggle("bx-x");
